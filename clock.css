@@ -1,0 +1,53 @@
+/*for digital*/ 
+@font-face {
+  font-family:myFirstFont;
+  src: url("DS-DIGI.TTF");
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(101, 186, 192);
+}
+
+.clock-area{
+  border: 40px;
+}
+
+.clock{
+
+  background-color: rgb(94, 88, 97);
+  border: 5px solid;
+  padding: 10px 10px;
+  box-shadow: 5px 5px 5px 5px purple;
+
+}
+
+.clock span{
+font-family: "myFirstFont";
+  color: aliceblue;
+  font-size: larger;
+}
+
+.clock span.divider{
+  color: black;
+}
+
+span#ampm{
+
+   color: darkblue;
+   font-size: small;
+   text-transform: uppercases;
+
+
+}
